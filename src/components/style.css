@@ -245,7 +245,7 @@ flex-direction: column;
     font-size: 14px;
 }
 .widget .weatherInfo .description .weatherCondition {
-  font-size: 20gitpx;
+  font-size: 20px;
   font-weight: 100;
   text-transform: uppercase;
 }
