@@ -79,7 +79,7 @@ body {
 }
 .widget .weatherInfo .description .weatherCondition {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 26px;
   font-weight: 100;
 }
 .widget .weatherInfo .description .place {
@@ -243,5 +243,10 @@ flex-direction: column;
     text-transform: capitalize;
     color: #080705;
     font-size: 14px;
+}
+.widget .weatherInfo .description .weatherCondition {
+  font-size: 20gitpx;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 }
