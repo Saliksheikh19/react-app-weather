@@ -45,7 +45,7 @@ const Weathercard = ({
             setWeatheState("wi-rain-wind");
             break;
         default:
-          setWeatheState("wi-day-sunny");
+          setWeatheState("");
           
           break;
       }
@@ -80,6 +80,9 @@ const Weathercard = ({
           break;
 
           case "Rain":
+          setBg(rainbg);
+          break;
+          case "Thunderstorm":
           setBg(rainbg);
           break;
 
